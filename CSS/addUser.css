@@ -1,0 +1,97 @@
+/* Trong CSS của bạn (addUser.css) hoặc thẻ <style> trong cùng file HTML */
+.container{
+    border: 1px solid black;
+    width: 1080px;
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.section {
+    width: 580px;
+    margin-left: 20px;
+}
+
+h1 {
+    padding-left: 20px;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 5px;
+}
+
+form {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.common-section {
+    margin: 10px 0;
+    height: auto;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #555;
+    padding-left: 7px;
+    border-left: 1px solid #555;
+    float: left;
+    margin-right: 400px;
+}
+/* Trong CSS của bạn (addUser.css) hoặc thẻ <style> trong cùng file HTML */
+.input-with-icon-count {
+    position: relative;
+    display: inline-block; /* Hiển thị trên cùng một dòng */
+}
+
+.input-with-icon-count i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #555;
+    padding-left: 7px;
+    border-left: 1px solid #555;
+    margin-right: 0;
+}
+
+.period .input-with-icon-count {
+    margin-right: 20px; /* Điều chỉnh khoảng cách giữa fromDate và toDate */
+}
+
+.period .input-with-icon-count:last-child {
+    margin-right: 0; /* Không có margin-right cho phần tử cuối cùng */
+}
+
+.period .input-with-icon-count input {
+    width: 150px; /* Điều chỉnh chiều rộng của input nếu cần thiết */
+}
+
+.period {
+    border: 1px solid black;
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.period .input-with-icon {
+    margin-right: 0;
+}
+
+.period .input-with-icon,
+.period button {
+    margin-top: 10px;
+}
+.btn {
+    padding-left: 20px;
+    border-top: 1px solid black;
+    padding-top: 5px;
+}
